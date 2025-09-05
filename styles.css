@@ -121,6 +121,7 @@ hr {
 .nutrition p {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
     margin-right: 0;
     
 }
