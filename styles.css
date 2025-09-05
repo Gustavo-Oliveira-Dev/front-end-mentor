@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+section {
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 900px;
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+
+}
+
+.img-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     
+    font-family: "Young Serif", serif;
+}
+
+.img-description img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    
+   
+
+
+}
+
+.prepare {
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    width: 775px;
+    gap: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    
+
+}
+
+.title-2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    
+
+}
+
+.title-3 {
+    margin-left: 20px;
+    padding-top: 30px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+    
+}
+
+hr {
+    width: 100%;
+}
+
+
+.prepare li {
+    padding-bottom: 20px;
+    margin-left: 50px;
+    color: hsl(24, 5%, 18%);
+    font-family: "Outfit", sans-serif;
+    
+}
+
+.Ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+  
+}
+
+.Ingredients li {
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+   
+
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.instructions li {
+    padding-bottom: 10px;
+    margin-left: 30px;
+    color: hsl(24, 5%, 18%);
+    font-family: "Outfit", sans-serif;
+    
+}
+
+.nutrition p {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 15px;
+    }
+
+    .prepare, .Ingredients, .instructions {
+        width: 100%; /* ocupa toda a tela no celular */
+    }
+
+    .img-description img {
+        height: auto; /* ajusta automaticamente */
+    }
+}
